@@ -1,0 +1,72 @@
+[
+	{
+		"type" : "물동량",
+		"monthLastYear" : 1000,
+		"lastMonth" : 87031,
+		"managementGoal" : 113140,
+		"result" : 117031,
+		"targetRate" : 103,
+		"lastMonthRate" : 134,
+		"note" : ""
+	},
+	{
+		"type" : "자원",
+		"monthLastYear" : 2000,
+		"lastMonth" : 161,
+		"managementGoal" : 209,
+		"result" : 190,
+		"targetRate" : -19,
+		"lastMonthRate" : 29,
+		"note" : ""
+	},
+	{
+		"type" : "가동시간",
+		"monthLastYear" : 3000,
+		"lastMonth" : 85,
+		"managementGoal" : 111,
+		"result" : 130,
+		"targetRate" : 20,
+		"lastMonthRate" : 45,
+		"note" : ""
+	},
+	{
+		"type" : "원단위",
+		"monthLastYear" : 4000,
+		"lastMonth" : 0,
+		"managementGoal" : 172,
+		"result" : 0,
+		"targetRate" : -172,
+		"lastMonthRate" : 0,
+		"note" : ""
+	},
+	{
+		"type" : "인/시",
+		"monthLastYear" : 5000,
+		"lastMonth" : 51,
+		"managementGoal" : 61,
+		"result" : 38,
+		"targetRate" : -23,
+		"lastMonthRate" : -13,
+		"note" : "전월 120% 목표"
+	},
+	{
+		"type" : "인/월",
+		"monthLastYear" : 6000,
+		"lastMonth" : 541,
+		"managementGoal" : 649,
+		"result" : 616,
+		"targetRate" : -33,
+		"lastMonthRate" : 75,
+		"note" : "전월 120% 목표"
+	},
+	{
+		"type" : "가동율",
+		"monthLastYear" : 7000,
+		"lastMonth" : 57,
+		"managementGoal" : 80,
+		"result" : 72,
+		"targetRate" : -8,
+		"lastMonthRate" : 15,
+		"note" : ""
+	}
+]

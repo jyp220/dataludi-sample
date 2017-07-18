@@ -1,0 +1,38 @@
+[
+	{
+		"runningRate" : 29,
+		"sortedQty" : 9345,
+		"target" : 64,
+		"week" : "1"
+	},
+	{
+		"runningRate" : 30,
+		"sortedQty" : 23030,
+		"target" : 64,
+		"week" : "2"
+	},
+	{
+		"runningRate" : 55,
+		"sortedQty" : 41730,
+		"target" : 64,
+		"week" : "3"
+	},
+	{
+		"runningRate" : 50,
+		"sortedQty" : 37900,
+		"target" : 64,
+		"week" : "4"
+	},
+	{
+		"runningRate" : 37,
+		"sortedQty" : 27955,
+		"target" : 64,
+		"week" : "5"
+	},
+	{
+		"runningRate" : 29,
+		"sortedQty" : 9345,
+		"target" : 64,
+		"week" : "6"
+	}
+]

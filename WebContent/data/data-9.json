@@ -1,0 +1,28 @@
+[
+	{
+		"type" : "당일",
+		"date" : "2017-06-26",
+		"prePdtRate" : 249,
+		"targetPdtRate" : 311,
+		"retCheckValue" : 551,
+		"retInspectionValue" : 551,
+		"retSortedValue" : 551,
+		"retStockValue" : 551,
+		"retSumValue" : 138,
+		"retCompareValue" : -111,
+		"targetCompareValue" : -173
+	},
+	{
+		"type" : "월누계",
+		"date" : "2017-06-26",
+		"prePdtRate" : 249,
+		"targetPdtRate" : 311,
+		"retCheckValue" : 664,
+		"retInspectionValue" : 657,
+		"retSortedValue" : 648,
+		"retStockValue" : 684,
+		"retSumValue" : 166,
+		"retCompareValue" : -83,
+		"targetCompareValue" : -145
+	}
+]

@@ -1,0 +1,24 @@
+[
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "計",
+		"type" : "당일",
+		"planPcs" : 8703,
+		"checkQty" : 0,
+		"inspectionQty" : 0,
+		"sortedQty" : 0,
+		"stockQty" : 0,
+		"calc" : 0
+	},
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "計",
+		"type" : "월누계",
+		"planPcs" : 187988,
+		"checkQty" : 56248,
+		"inspectionQty" : 135603,
+		"sortedQty" : 136153,
+		"stockQty" : 0,
+		"calc" : 136153
+	}
+]

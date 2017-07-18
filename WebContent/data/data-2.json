@@ -1,0 +1,62 @@
+[
+	{
+		"type" : "매출",
+		"lastMonth" : 87031,
+		"planQty" : 113140,
+		"sum" : 117031,
+		"1week" : 103,
+		"2week" : 134,
+		"3week" : 123,
+		"4week" : 223,
+		"5week" : 323,
+		"6week" : 423
+	},
+	{
+		"type" : "직접원가",
+		"lastMonth" : 0,
+		"planQty" : 0,
+		"sum" : 0,
+		"1week" : 0,
+		"2week" : 0,
+		"3week" : 0,
+		"4week" : 0,
+		"5week" : 0,
+		"6week" : 0
+	},
+	{
+		"type" : "직접이익",
+		"lastMonth" : 0,
+		"planQty" : 0,
+		"sum" : 0,
+		"1week" : 0,
+		"2week" : 0,
+		"3week" : 0,
+		"4week" : 0,
+		"5week" : 0,
+		"6week" : 0
+	},
+	{
+		"type" : "간접원가",
+		"lastMonth" : 0,
+		"planQty" : 0,
+		"sum" : 0,
+		"1week" : 0,
+		"2week" : 0,
+		"3week" : 0,
+		"4week" : 0,
+		"5week" : 0,
+		"6week" : 0
+	},
+	{
+		"type" : "매출이익",
+		"lastMonth" : 0,
+		"planQty" : 0,
+		"sum" : 0,
+		"1week" : 0,
+		"2week" : 0,
+		"3week" : 0,
+		"4week" : 0,
+		"5week" : 0,
+		"6week" : 0
+	}
+]

@@ -1,0 +1,82 @@
+[
+	{
+		"monthName" : "2016-12",
+		"runningRate" : 62,
+		"sortedQty" : 210150,
+		"target" : 55,
+        "label": "2016-12"
+	},
+	{
+		"monthName" : "2017-1",
+		"runningRate" : 105,
+		"sortedQty" : 341735,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-2",
+		"runningRate" : 314,
+		"sortedQty" : 1060460,
+		"target" : 55,
+        "label": "2월"
+	},
+	{
+		"monthName" : "2017-3",
+		"runningRate" : 40,
+		"sortedQty" : 130380,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-4",
+		"runningRate" : 44,
+		"sortedQty" : 148210,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-5",
+		"runningRate" : 232,
+		"sortedQty" : 783995,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-6",
+		"runningRate" : 514,
+		"sortedQty" : 1678715,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-7",
+		"runningRate" : 42,
+		"sortedQty" : 140875,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-8",
+		"runningRate" : 136,
+		"sortedQty" : 415745,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-9",
+		"runningRate" : 61,
+		"sortedQty" : 205800,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-10",
+		"runningRate" : 38,
+		"sortedQty" : 122610,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-11",
+		"runningRate" : 75,
+		"sortedQty" : 252340,
+		"target" : 55
+	},
+	{
+		"monthName" : "2017-12",
+		"runningRate" : 41,
+		"sortedQty" : 139905,
+		"target" : 55
+	}
+]

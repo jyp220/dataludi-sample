@@ -1,0 +1,59 @@
+[
+	{
+		"label" : "2016-12",
+		"monthName" : "2016-12",
+		"runningRate" : 62
+	},
+	{
+		"monthName" : "2017-1",
+		"runningRate" : 105
+	},
+	{
+		"monthName" : "2017-2",
+		"runningRate" : 314
+	},
+	{
+		"label" : "2017-3",
+		"monthName" : "2017-3",
+		"runningRate" : 40
+	},
+	{
+		"monthName" : "2017-4",
+		"runningRate" : 44
+	},
+	{
+		"monthName" : "2017-5",
+		"runningRate" : 232
+	},
+	{
+		"label" : "2017-6",
+		"monthName" : "2017-6",
+		"runningRate" : 514
+	},
+	{
+		"monthName" : "2017-7",
+		"runningRate" : 42
+	},
+	{
+		"monthName" : "2017-8",
+		"runningRate" : 136
+	},
+	{
+		"label" : "2017-9",
+		"monthName" : "2017-9",
+		"runningRate" : 61
+	},
+	{
+		"monthName" : "2017-10",
+		"runningRate" : 38
+	},
+	{
+		"monthName" : "2017-11",
+		"runningRate" : 75
+	},
+	{
+		"label" : "2017-12",
+		"monthName" : "2017-12",
+		"runningRate" : 41
+	}
+]

@@ -1,0 +1,68 @@
+[
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "푸마반품",
+		"type" : "당일",
+		"planPcs" : 4649,
+		"checkQty" : 0,
+		"inspectionQty" : 0,
+		"sortedQty" : 0,
+		"stockQty" : 0,
+		"calc" : 0
+	},
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "푸마반품",
+		"type" : "월누계",
+		"planPcs" : 98259,
+		"checkQty" : 56248,
+		"inspectionQty" : 56248,
+		"sortedQty" : 56248,
+		"stockQty" : 0,
+		"calc" : 56248
+	},
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "기타반품",
+		"type" : "당일",
+		"planPcs" : 4154,
+		"checkQty" : 0,
+		"inspectionQty" : 0,
+		"sortedQty" : 0,
+		"stockQty" : 0,
+		"calc" : 0
+	},
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "기타반품",
+		"type" : "월누계",
+		"planPcs" : 89729,
+		"checkQty" : 0,
+		"inspectionQty" : 89729,
+		"sortedQty" : 89729,
+		"stockQty" : 0,
+		"calc" : 89729
+	},
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "지역사업",
+		"type" : "당일",
+		"planPcs" : 0,
+		"checkQty" : 0,
+		"inspectionQty" : 0,
+		"sortedQty" : 0,
+		"stockQty" : 0,
+		"calc" : 0
+	},
+	{
+		"date" : "2017-06-26",
+		"workDegree" : "지역사업",
+		"type" : "월누계",
+		"planPcs" : 0,
+		"checkQty" : 0,
+		"inspectionQty" : 0,
+		"sortedQty" : 0,
+		"stockQty" : 0,
+		"calc" : 0
+	}
+]

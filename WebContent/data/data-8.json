@@ -1,0 +1,20 @@
+[
+	{
+		"date" : "2017-06-26",
+		"type" : "당일",
+		"stdPsn" : 17,
+		"checkPsn" : 8,
+		"inspectionPsn" : 8,
+		"sortedPsn" : 8,
+		"stockPsn" : 8
+	},
+	{
+		"date" : "2017-06-26",
+		"type" : "월누계",
+		"stdPsn" : 442,
+		"checkPsn" : 206,
+		"inspectionPsn" : 208,
+		"sortedPsn" : 211,
+		"stockPsn" : 200
+	}
+]

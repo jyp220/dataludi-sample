@@ -1,0 +1,28 @@
+[
+	{
+		"type" : "당일",
+		"date" : "2017-06-26",
+		"stdUnloadPsn" : 10,
+		"stdLaborCost" : 0.6,
+		"stdRentCost" : 0.2,
+		"stdSumCost" : 0.8,
+		"inspUnloadPsn" : -14.3,
+		"inspLaborCost" : -0.9,
+		"inspRentCost" : 0.2,
+		"inspSumCost" : -0.7,
+		"targetRate" : -87
+	},
+	{
+		"type" : "월누계",
+		"date" : "2017-06-26",
+		"stdUnloadPsn" : 190,
+		"stdLaborCost" : 11.4,
+		"stdRentCost" : 3.8,
+		"stdSumCost" : 15.2,
+		"inspUnloadPsn" : 549,
+		"inspLaborCost" : 45,
+		"inspRentCost" : 3.8,
+		"inspSumCost" : 48.8,
+		"targetRate" : 321
+	}
+]
