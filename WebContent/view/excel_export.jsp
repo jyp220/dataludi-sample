@@ -23,14 +23,5 @@
 	    <div class="dot-title">Grid-1</div>
 	    <div id="grdMain" style="height:220px;min-width:100px"></div>
 	</div>
-
-	<input type="checkbox" id="chkHeader"value="Header" checked>
-	<label for="chkHeader">Header</label>
-	<input type="checkbox" id="chkFooter"value="Footer" checked>
-	<label for="chkFooter">Footer</label>
-	<input type="checkbox" id="chkIndicator"value="RowIndicator" checked>
-	<label for="chkIndicator">RowIndicator</label>
-	
-	<button type="button" onClick="btnSave_click()">Export Excel</button>
 </body>
 </html>

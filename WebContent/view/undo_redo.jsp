@@ -23,8 +23,5 @@
 	    <div class="dot-title">Grid-1</div>
 	    <div id="grdMain" style="height:220px;min-width:100px"></div>
 	</div>
-	
-	<button type="button" onClick="btnUndo_click()">Undo</button>(ctrl+Z, cmd+Z)
-	<button type="button" onClick="btnRedo_click()">Redo</button>(ctrl+Y, cmd+Y)
 </body>
 </html>

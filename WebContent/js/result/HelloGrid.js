@@ -32,9 +32,9 @@ function getInfo(tUrl) {
         dataType: 'text',
         success: function (data) {
             if(data) {
-	            	new DataLudi.DataLoader(dsMain).load("csv", data, {
-	                	start:1
-	                });
+            	new DataLudi.DataLoader(dsMain).load("csv", data, {
+                	start:1
+                });
             } else {
                 alert('data is empty');
             }
@@ -45,6 +45,10 @@ function getInfo(tUrl) {
         }
     });
 }
+
+var loadHelloGridList = function (data) {
+	dsMain.setRows(data);
+};
 
 function initHelloGrid() {
 	dsMain = DataLudi.createGridDataSet([

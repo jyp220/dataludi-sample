@@ -23,10 +23,5 @@
 	    <div class="dot-title">Grid-1</div>
 	    <div id="grdMain" style="height:220px;min-width:100px"></div>
 	</div>
-	
-	<button type="button" onClick="focusCell()">Change Focus</button>
-	<div id="txtCurrent"></div>
-	<div id="txtCurrentRow"></div>
-	<div id="txtClicked"></div>
 </body>
 </html>

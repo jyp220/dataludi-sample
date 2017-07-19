@@ -21,6 +21,12 @@ var setButtons = {
      }
 };
 
+function focusCell() {
+	var index = grdMain.focusedIndex();
+    index.rowIndex++;
+    grdMain.setFocusedIndex(index, true);
+}
+
 function helloGrid() {
     var url = "http://helpme.emro.co.kr/repo/grid/resource/data/orders_s.csv";
     getInfo(url);
@@ -32,9 +38,9 @@ function getInfo(tUrl) {
         dataType: 'text',
         success: function (data) {
             if(data) {
-	            	new DataLudi.DataLoader(dsMain).load("csv", data, {
-	                	start:1
-	                });
+            	new DataLudi.DataLoader(dsMain).load("csv", data, {
+                	start:1
+                });
             } else {
                 alert('data is empty');
             }
@@ -45,6 +51,10 @@ function getInfo(tUrl) {
         }
     });
 }
+
+var loadHelloGridList = function (data) {
+	dsMain.setRows(data);
+};
 
 function initHelloGrid() {
 	dsMain = DataLudi.createGridDataSet([
@@ -93,7 +103,7 @@ function initHelloGrid() {
             text: "제품코드"
         }
     }, {
-    		name: "ProductName",
+    	name: "ProductName",
         fieldName: "product_name",
         width: "90",
         styles: {
@@ -103,7 +113,7 @@ function initHelloGrid() {
             text: "제품명"
         }
     }, {
-    		name: "CustomerId",
+    	name: "CustomerId",
         fieldName: "customer_id",
         width: "90",
         styles: {
@@ -113,7 +123,7 @@ function initHelloGrid() {
             text: "고객아이디"
         }
     }, {
-    		name: "CustomerName",
+    	name: "CustomerName",
         fieldName: "customer_name",
         width: "90",
         styles: {
@@ -133,7 +143,7 @@ function initHelloGrid() {
             text: "국가"
         }
     }, {
-    		name: "Phone",
+    	name: "Phone",
         fieldName: "phone",
         width: "100",
         styles: {
@@ -143,7 +153,7 @@ function initHelloGrid() {
             text: "전화번호"
         }
     }, {
-    		name: "Unit",
+    	name: "Unit",
         fieldName: "unit",
         width: "90",
         styles: {
@@ -153,7 +163,7 @@ function initHelloGrid() {
             text: "단위"
         }
     }, {
-    		name: "Currency",
+    	name: "Currency",
         fieldName: "currency",
         width: "60",
         styles: {
@@ -163,7 +173,7 @@ function initHelloGrid() {
             text: "통화"
         }
     }, {
-    		name: "UnitPrice",
+    	name: "UnitPrice",
         fieldName: "unit_price",
         width: "100",
         styles: {
@@ -185,9 +195,16 @@ function initHelloGrid() {
                 "criteria": "value > 10000",
                 "styles": "color=#ff0000"
             }]
-        }
+        },
+        tooltipCallback: function (index) {
+		    var val = index.getValue();
+		    if (!isNaN(val)) {
+                return '<span style="text-decoration:underline;">' + '원금:' + '</span><br>' +
+                    '<b>' + DataLudi.formatNumber('#,##0.00', val) + '</b>';
+		    }
+		}
     }, {
-    		name: "Quantity",
+    	name: "Quantity",
         fieldName: "quantity",
         width: "100",
         styles: {
@@ -211,7 +228,7 @@ function initHelloGrid() {
             }]
         }
     }, {
-    		name: "OrderDate",
+    	name: "OrderDate",
         fieldName: "order_date",
         width: "90",
         styles: {
@@ -222,7 +239,7 @@ function initHelloGrid() {
             text: "발주일"
         }
     }, {
-    		name: "ShipDate",
+    	name: "ShipDate",
         fieldName: "ship_date",
         width: "120",
         styles: {
@@ -244,6 +261,12 @@ function initHelloGrid() {
         },
         display: {
             selectStyle: DataLudi.SelectionStyle.ROWS
+        },
+        body: {
+        	tooltipCallback: function (index) {
+                var val = index.getValue();
+                return '<b>' + val + '</b>';
+            }
         }
     });
     grdMain.loadStyles({

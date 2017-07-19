@@ -7,15 +7,17 @@
 <title>Dataludi</title>
 </head>
 <body>
-	<a href="view/hello_grid.jsp">Hello Grid</a> <br>
-	<a href="view/change_focus.jsp">Change Focus</a> <br>
-	<a href="view/paging.jsp">paging</a> <br>
-	<a href="view/excel_export.jsp">Excel Export</a> <br>
-	<a href="view/column_auto_filter.jsp">Column Auto Filtering</a> <br>
-	<a href="view/tooltip.jsp">Tooltip</a> <br>
-	<a href="view/spark_line.jsp">Spark Line</a> <br>
-	<a href="view/bar_chart.jsp">Bar Chart</a> <br>
-	<a href="view/undo_redo.jsp">Undo&Redo</a> <br>
-	<a href="view/calc_field.jsp">계산필드</a> <br>
+	<div>
+		<li><a href="view/result/hello_grid.jsp">Hello Grid</a></li>
+		<li><a href="view/change_focus.jsp">Change Focus</a></li>
+		<li><a href="view/paging.jsp">paging</a></li>
+		<li><a href="view/excel_export.jsp">Excel Export</a></li>
+		<li><a href="view/column_auto_filter.jsp">Column Auto Filtering</a></li>
+		<li><a href="view/tooltip.jsp">Tooltip</a></li>
+		<li><a href="view/spark_line.jsp">Spark Line</a></li>
+		<li><a href="view/bar_chart.jsp">Bar Chart</a></li>
+		<li><a href="view/undo_redo.jsp">Undo&Redo</a></li>
+		<li><a href="view/calc_field.jsp">계산필드</a></li>
+	</div>
 </body>
 </html>

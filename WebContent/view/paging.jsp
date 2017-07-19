@@ -23,10 +23,5 @@
 	    <div class="dot-title">Grid-1</div>
 	    <div id="grdMain" style="height:220px;min-width:100px"></div>
 	</div>
-	
-	<button type="button" id="btnFirst" onClick="btnFirst_click()">btnFirst</button>
-	<button type="button" id="btnPrev" onClick="btnPrev_click()">btnPrev</button>
-	<button type="button" id="btnNext" onClick="btnNext_click()">btnNext</button>
-	<button type="button" id="btnLast" onClick="btnLast_click()">btnLast</button>
 </body>
 </html>
