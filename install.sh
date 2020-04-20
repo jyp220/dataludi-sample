@@ -7,14 +7,16 @@ curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/docker-c
 
 HOST_PORT=3000
 
-echo "${HOST_PORT}"
+echo "1 -------- : ${HOST_PORT}"
 if [ $# -eq 0 ] ; then
   echo "Warning: default port 3000"
 else
   HOST_PORT=$0
 fi
-echo $@
-echo "${HOST_PORT}"
+
+echo "2 -------- : $0"
+echo "3 -------- : $1"
+echo "4 -------- : ${HOST_PORT}"
 
 echo "HostPort="$HOST_PORT > .env
 
