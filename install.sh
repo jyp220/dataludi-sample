@@ -1,6 +1,18 @@
+if [ -f "db.sqlite" ] ; then
+  echo "db.sqlite exist"
+else
+  echo "db.sqlite create"
+  curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/db.sqlite
+fi
 
-curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/db.sqlite
-curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/docker-compose.yml
+if [ -f "docker-compose.yml" ] ; then
+  echo "docker-compose.yml exist"
+else
+  echo "docker-compose.yml create"
+  curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/docker-compose.yml
+fi
+
+
 
 # echo "start"
 # echo $1
