@@ -11,7 +11,7 @@ echo "1 -------- : ${HOST_PORT}"
 if [ $# -eq 0 ] ; then
   echo "Warning: default port 3000"
 else
-  HOST_PORT=$0
+  HOST_PORT=$1
 fi
 
 echo "2 -------- : $0"
