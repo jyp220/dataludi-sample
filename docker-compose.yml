@@ -3,7 +3,7 @@ services:
   nginx:
     image: jyp220/operato-nginx:0.1
     ports:
-      - 5000:80
+      - ${HostPort}:80
     depends_on:
       - app
   app:
