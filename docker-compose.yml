@@ -1,0 +1,15 @@
+version: "3"
+services:
+  nginx:
+    image: jyp220/operato-nginx:0.1
+    ports:
+      - 5000:80
+    depends_on:
+      - app
+  app:
+    container_name: operato-ecs
+    image: jyp220/operato-ecs:0.2
+    volumes:
+      - ./db.sqlite:/app/db.sqlite
+    ports:
+      - 3000
