@@ -2,37 +2,47 @@ if [ -f "db.sqlite" ] ; then
   echo "db.sqlite exist"
 else
   echo "db.sqlite create"
-  curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/db.sqlite
+  curl -O https://raw.githubusercontent.com/things-factory/installer/master/operato-ecs/db.sqlite
 fi
 
-if [ -f "docker-compose.yml" ] ; then
-  echo "docker-compose.yml exist"
+if [ -f "config.production.js" ] ; then
+  echo "config.production.js exist"
 else
-  echo "docker-compose.yml create"
-  curl -O https://raw.githubusercontent.com/jyp220/dataludi-sample/master/docker-compose.yml
+  echo "config.production.js create"
+  curl -O https://raw.githubusercontent.com/things-factory/installer/master/operato-ecs/config.production.js
 fi
 
-
-
-# echo "start"
-# echo $1
-
-HOST_PORT=3000
-
-echo "1 -------- : ${HOST_PORT}"
-if [ $# -eq 0 ] ; then
-  echo "Warning: default port 3000"
+if [ -f "operato-ecs-start.sh" ] ; then
+  echo "operato-ecs-start.sh exist"
 else
-  HOST_PORT=$1
+  echo "operato-ecs-start.sh create"
+  curl -O https://raw.githubusercontent.com/things-factory/installer/master/operato-ecs/operato-ecs-start.sh
 fi
 
-echo "2 -------- : $0"
-echo "3 -------- : $1"
-echo "4 -------- : ${HOST_PORT}"
+if [ -f "operato-ecs-stop.sh" ] ; then
+  echo "operato-ecs-stop.sh exist"
+else
+  echo "operato-ecs-stop.sh create"
+  curl -O https://raw.githubusercontent.com/things-factory/installer/master/operato-ecs/operato-ecs-stop.sh
+fi
 
-echo "HostPort="$HOST_PORT > .env
+if [ -f "upgrade.sh" ] ; then
+  echo "upgrade.sh exist"
+else
+  echo "upgrade.sh create"
+  curl -O https://raw.githubusercontent.com/things-factory/installer/master/operato-ecs/upgrade.sh
+fi
 
+curl -O https://raw.githubusercontent.com/things-factory/installer/master/operato-ecs-with-mosquitto/docker-compose.yml
 
-docker-compose up
+chmod u+x operato-ecs-start.sh
+chmod u+x operato-ecs-stop.sh
+chmod u+x upgrade.sh
 
-# echo "end"
+docker pull eclipse-mosquitto:latest
+docker pull hatiolab/operato-ecs:latest
+docker pull hatiolab/operato-nginx:latest
+
+docker create -it --name mosquitto
+docker create -it --name operato-ecs
+docker create -it --name nginx
