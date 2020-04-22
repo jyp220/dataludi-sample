@@ -43,6 +43,4 @@ docker pull eclipse-mosquitto:latest
 docker pull hatiolab/operato-ecs:latest
 docker pull hatiolab/operato-nginx:latest
 
-docker create -it --name mosquitto eclipse-mosquitto
-docker create -it --name operato-ecs hatiolab/operato-ecs
-docker create -it --name nginx hatiolab/operato-nginx
+docker-compose create
